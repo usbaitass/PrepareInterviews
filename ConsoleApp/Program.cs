@@ -1,5 +1,6 @@
 ﻿using ConsoleApp.Tasks;
 using ConsoleApp.Topics;
+using ConsoleApp.Topics.Patterns.DecoratorPattern;
 
 Console.WriteLine("Hello, World!");
 Console.WriteLine("==============================================");
@@ -16,3 +17,4 @@ MainRevertWords.run();
 MainAttribute.Run();
 MainAbstractClass.Run();
 MainUser.Run();
+MainDecoratorPattern.Run();
