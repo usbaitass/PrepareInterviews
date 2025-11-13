@@ -1,0 +1,23 @@
+root = true
+
+#### Core EditorConfig Options ####
+[*.cs]
+indent_style = space
+indent_size = 4
+tab_width = 4
+charset = utf-8
+trim_trailing_whitespace = false
+
+# New line preferences
+end_of_line = crlf
+insert_final_newline = true
+
+# Organize usings
+dotnet_separate_import_directive_groups = false
+dotnet_sort_system_directives_first = true
+
+# Parameter preferences
+dotnet_code_quality_unused_parameters = all:error
+
+# Namespace preferences
+csharp_style_namespace_declarations=file_scoped:error
