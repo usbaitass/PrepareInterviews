@@ -1,6 +1,7 @@
 ﻿using ConsoleApp.Tasks;
 using ConsoleApp.Topics;
 using ConsoleApp.Topics.Patterns.DecoratorPattern;
+using ConsoleApp.Topics.Patterns;
 
 Console.WriteLine("Hello, World!");
 Console.WriteLine("==============================================");
@@ -18,3 +19,5 @@ MainAttribute.Run();
 MainAbstractClass.Run();
 MainUser.Run();
 MainDecoratorPattern.Run();
+MainFactoryPattern.Run();
+MainTemplateMethodPattern.Run();
