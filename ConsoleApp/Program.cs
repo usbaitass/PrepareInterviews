@@ -21,3 +21,4 @@ MainUser.Run();
 MainDecoratorPattern.Run();
 MainFactoryPattern.Run();
 MainTemplateMethodPattern.Run();
+MainObserverPattern.Run();
